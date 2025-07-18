@@ -1,0 +1,77 @@
+Body {
+  Font-family: ‘Segoe UI’, sans-serif;
+  Background: #f0f4f8;
+  Margin: 0;
+  Padding: 0;
+}
+
+.container {
+  Max-width: 500px;
+  Margin: 60px auto;
+  Background: #fff;
+  Padding: 25px 30px;
+  Border-radius: 10px;
+  Box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+H1 {
+  Text-align: center;
+  Color: #333;
+}
+
+Form {
+  Display: flex;
+  Margin-bottom: 20px;
+}
+
+Input[type=”text”] {
+  Flex: 1;
+  Padding: 12px;
+  Border: 1px solid #ccc;
+  Border-radius: 6px 0 0 6px;
+  Font-size: 16px;
+}
+
+Button {
+  Padding: 12px 18px;
+  Background: #0077cc;
+  Color: white;
+  Border: none;
+  Border-radius: 0 6px 6px 0;
+  Cursor: pointer;
+  Font-weight: bold;
+}
+
+Button:hover {
+  Background: #005fa3;
+}
+
+Ul {
+  List-style: none;
+  Padding: 0;
+}
+
+Li {
+  Background: #e0f0ff;
+  Padding: 12px;
+  Margin-bottom: 10px;
+  Border-radius: 6px;
+  Display: flex;
+  Justify-content: space-between;
+  Align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+  background: #d8d8d8;
+}
+
+Li button {
+  Background: transparent;
+  Border: none;
+  Font-size: 18px;
+  Cursor: pointer;
+}
+
+
